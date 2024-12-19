@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gabriel's portfolio</title>
+        <link rel="stylesheet" href="styles.css">
+</head>
+<body> 
+    <header class="main-header">
+        <button class="button" id="logo" onclick="scrollToTop()">
+            <a>GB</a>
+        </button>
+        <div class="separator"></div>
+        <div class="hamburger" id="hamburger" onclick="toggleMenu()">&#9776;</div>
+        <nav class="nav-menu" id="nav-menu">
+            <ul>
+                <li><a href="#about"><span class="highlight">01. </span>About</a></li> 
+                <li><a href="#skills"><span class="highlight">02. </span>Skills</a></li>
+                <li><a href="#projects"><span class="highlight">03. </span>Projects</a></li>
+                <li><a href="#contact"><span class="highlight">04. </span>Contact</a></li>
+                <li class="socials">
+                    <a href="https://github.com/gabrielnakoa" target="_blank">
+                        <img src="ph0tos/github-icon1.png" class="social-icon">
+                    </a>
+                    <a href="#email" target="_blank">
+                        <img src="ph0tos/email-icon1.png" class="social-icon">
+                    </a>
+                </li>   
+            </ul>
+        </nav>
+        <button class="button" id="resume">
+            <a href="RESUME.pdf" target="_blank">Resume</a>
+        </button>
+    </header>
+
+
+<!--
+-->
+
+    <section id="intro" class="section hidden-section">
+        <div class="intro-container">
+            <div class="intro-content">
+                <h2><span class="highlight">Hi, my name is</span></h2>
+                <h1 class="title" id="name">Gabriel Bulosan.</h1>
+                <h3 class="one-liner">I make web and mobile apps</h3>
+                <p class="description">
+                I'm a <span class="highlight">software developer</span>
+                specializing in <span class="highlight">building </span>mobile and web applications,
+                <span class="highlight"> with</span> expertise in <span class="highlight">backend frameworks</span> like Flask and FastAPI 
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section hidden-section">
+        <div class="about-container">
+            <div class="about-content">
+                <h1 class="title"><span class="highlight">01. </span>About Me</h1>
+                <p class="description">
+                Hello, my name is Gabriel. I'm a <span class="highlight">developer</span>, 
+                <span class="highlight"> designer</span>, and <span class="highlight">problem solver</span>.
+                I find great satisfaction in using technologies I've learned to create practical solutions to problems.
+                I've learned many programming languages, but my favorite is
+                <span class="highlight"> Python</span>. My goal is to contribute
+                to fun and exciting projects that make a difference in people's lives. 
+                While I enjoy learning all aspects of development, I find particular fulfillment 
+                in designing and <span class="highlight">optimizing</span> backend systems.
+                </p>
+            </div>
+
+            <img src="ph0tos/handsome.png" id="photo">
+        </div>
+    </section>
+
+    <section id="skills" class="section hidden-section">
+        <div class="skills-container">
+            <div class="skills-content">
+                <h2 class="title"><span class="highlight">02. </span>Skills</h2>
+                <p class="description"><span class="highlight">Experienced </span>in developing responsive applications and APIs using the following languages and technologies:</p>
+            </div>
+
+            <div class="skills-logos">
+                <div class="skill">
+                    <img src="ph0tos/python.png">
+                    <p>Python</p>
+                </div>
+                <div class="skill">
+                    <img src="ph0tos/cplusplus.png">
+                    <p>C++</p>
+                </div>
+                <div class="skill">
+                    <img src="ph0tos/java.png">
+                    <p>Java</p>
+                </div>
+                <div class="skill">
+                    <img src="ph0tos/javascript.png">
+                    <p>Javascript</p>
+                </div>
+                <div class="skill">
+                    <img src="ph0tos/swift.png">
+                    <p>Swift</p>
+                </div>
+                <div class="skill">
+                    <img src="ph0tos/html.png">
+                    <p>HTML</p>
+                </div>
+                <div class="skill">
+                    <img src="ph0tos/css.png">
+                    <p>CSS</p>
+                </div>
+                <div class="skill">
+                    <img src="ph0tos/flask.png">
+                    <p>Flask</p>
+                </div>
+                <div class="skill">
+                    <img src="ph0tos/fastapi.png">
+                    <p>FastAPI</p>
+                </div>
+                <div class="skill">
+                    <img src="ph0tos/mongodb.png">
+                    <p>MongoDB</p>
+                </div>
+                <div class="skill">
+                    <img src="ph0tos/mysql.png">
+                    <p>mySQL</p>
+                </div>
+            </div>
+        </div>    
+    </section>
+
+    <section id="projects" class="section hidden-section">
+        <div class="projects-container">
+            <div class="project-content-title">
+                <h2 class="title"><span class="highlight">03. </span>Projects</h2>
+                <p class="description"><span class="highlight">Video demos & code </span>for a few applications I've built</p>
+            </div>
+
+            <div class="projects-list">
+                <div class="project-card">
+                    <div class="project-header">
+                        <p><span class="highlight">Budget Buddy</span></p>
+                        <div>
+                            <a href="https://youtu.be/d80OKqx6mnw">Demo</a>
+                            <a href="https://github.com/gabrielnakoa/Budget-Buddy-app">GitHub</a>
+                        </div>
+                    </div>
+                    <p class="description">Track your spending, visualize expenses with detailed graphs, and set budgets for categories like groceries, gas, and more. Simplify money management and take control of your finances.</p>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-header">
+                        <p><span class="highlight">Cloud Service Access Management System</span></p>
+                        <div>
+                            <a href="https://youtu.be/1fiusH1su9E">Demo</a>
+                            <a href="https://github.com/gabrielnakoa/Cloud-Service-Management-System-FastAPI">GitHub</a>
+                        </div>
+                    </div>
+                    <p class="description">A FastAPI-based web service for managing user subscriptions, service access, and plan updates, with robust database interactions and scalable background task support.</p>
+                </div>
+            
+                <div class="project-card">
+                    <div class="project-header">
+                        <p><span class="highlight">File Upload Service API</span></p>
+                        <div>
+                            <a href="https://youtu.be/TXfcLeI3RuQ">Demo</a>
+                            <a href="https://github.com/gabrielnakoa/RESTful-API-with-Flask-mid_term_project">GitHub</a>
+                        </div>
+                    </div>
+                    <p class="description">A Flask-based image management API that enables users to upload and view files, while admins can delete content, all secured with JWT authentication and backed by a MySQL database.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="section hidden-section">
+        <div class="contact-container">
+            <h2 class="title"><span class="highlight">04. </span>Contact</h2>
+            <p class="highlight">Lets work together!</p>
+            <form id="contact-form" action="mailto:gabriel_bulosan@hotmail.com" method="post">
+                <input class="contact-form-name" name="email" placeholder="Email">
+                <input class="contact-form-email" name="subject" placeholder="Subject">
+                <textarea class="contact-form-message" name="message" placeholder="Message"></textarea>
+                <button type="submit" class="button"><span class="highlight">Send</span></button>                
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer" class="footer">
+        <button class="button" onclick="scrollToTop()"><span class="highlight">▲</span></button>
+        <div class="footer-icons">
+            <a href="https://github.com/gabrielnakoa" target="_blank">
+                <img src="ph0tos/github-icon1.png" alt="GitHub" class="footer-icon">
+            </a>
+            <a href="mailto:gabriel_bulosan@hotmail.com">
+                <img src="ph0tos/email-icon1.png" alt="Email" class="footer-icon">
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
